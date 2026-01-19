@@ -1,0 +1,12 @@
+Estado
+1 cambio
+este es 2 cambio
+comandos
+
+>git add (nombre del archivo,  o punto para todo) => lo deja en stargeo commit
+>git status => muestra el estado de archivo en stage
+>git commit -m"...aca va la descripción de la versión..." => graba la ultiam versión
+>git show => muestra cambos con detalle
+>git log => muestra descripcion de cambios
+>git restore => para volver a la versión anterior en la carpeta, antes del stage
+>git log --all --graph => muestra los cambios de manera grafica en la pantalla
