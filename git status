@@ -1,0 +1,33 @@
+[33mcommit d9d01adcaee7c8b795bf4fcf29512166f5d77b2c[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m
+Author: Ruthy <ruthy51@yahoo.com>
+Date:   Mon Jan 19 10:48:44 2026 -0300
+
+    otra subida
+
+[1mdiff --git a/ArchvioPrueba.cs b/ArchvioPrueba.cs[m
+[1mnew file mode 100644[m
+[1mindex 0000000..fb0ec2c[m
+[1m--- /dev/null[m
+[1m+++ b/ArchvioPrueba.cs[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32mEste es el archivo css[m
+\ No newline at end of file[m
+[1mdiff --git a/ParaGuardarLosComandos.txt b/ParaGuardarLosComandos.txt[m
+[1mnew file mode 100644[m
+[1mindex 0000000..721b0e3[m
+[1m--- /dev/null[m
+[1m+++ b/ParaGuardarLosComandos.txt[m
+[36m@@ -0,0 +1,12 @@[m
+[32m+[m[32mEstado[m
+[32m+[m[32m1 cambio[m
+[32m+[m[32meste es 2 cambio[m
+[32m+[m[32mcomandos[m
+[32m+[m
+[32m+[m[32m>git add (nombre del archivo,  o punto para todo) => lo deja en stargeo commit[m
+[32m+[m[32m>git status => muestra el estado de archivo en stage[m
+[32m+[m[32m>git commit -m"...aca va la descripción de la versión..." => graba la ultiam versión[m
+[32m+[m[32m>git show => muestra cambos con detalle[m
+[32m+[m[32m>git log => muestra descripcion de cambios[m
+[32m+[m[32m>git restore => para volver a la versión anterior en la carpeta, antes del stage[m
+[32m+[m[32m>git log --all --graph => muestra los cambios de manera grafica en la pantalla[m
+\ No newline at end of file[m
