@@ -2,6 +2,9 @@ Estado
 1 cambio
 este es 2 cambio
 comandos
+directorio gitruthy
+
+
 
 >git add (nombre del archivo,  o punto para todo) => lo deja en stargeo commit
 >git status => muestra el estado de archivo en stage
@@ -10,3 +13,48 @@ comandos
 >git log => muestra descripcion de cambios
 >git restore => para volver a la versión anterior en la carpeta, antes del stage
 >git log --all --graph => muestra los cambios de manera grafica en la pantalla
+> git init sirve para crear un nuevo repositorio de Git dentro de una carpeta
+como v olver a un comit anterior, 
+> git reset   => para volver en el tiempo
+> git revert avanza hacia adelante se le pone el hacsh del commit que se quiere revertir 
+
+por ejemplo en \Users\ruthy\gitruthy>git log --all --graph
+* commit ee5c966d76b1430b2d42e6d35ca97a586608ca5b (HEAD -> master)
+| Author: Ruthy <ruthy51@yahoo.com>
+| Date:   Wed Jan 21 09:22:01 2026 -0300
+|
+|     este
+|
+* commit d9d01adcaee7c8b795bf4fcf29512166f5d77b2c
+| Author: Ruthy <ruthy51@yahoo.com>
+| Date:   Mon Jan 19 10:48:44 2026 -0300
+|
+|     otra subida
+|
+* commit 10c0e1c0f7095130a9c748c4035ad5c5fb286811
+| Author: Ruthy <ruthy51@yahoo.com>
+| Date:   Mon Jan 19 10:26:42 2026 -0300
+|
+|     comandos
+|
+* commit 3c765ff256a044bd251f666d8a817d031932d8dc
+| Author: Ruthy <ruthy51@yahoo.com>
+| Date:   Mon Jan 19 10:11:14 2026 -0300
+|
+|     otro cambio
+|
+* commit 0af4908dbbab6cb58b74b93b85c1c96369ddc478
+| Author: Ruthy <ruthy51@yahoo.com>
+| Date:   Mon Jan 19 09:58:45 2026 -0300
+|
+|     1 camnbio
+
+0af4908dbbab6cb58b74b93b85c1c96369ddc478
+ seria el ultimo hash
+
+> git branch (nombre de la rama) => crea una rama con el nombre
+
+git branch primerrama
+git branch rama1
+
+
